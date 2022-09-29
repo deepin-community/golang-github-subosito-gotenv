@@ -1,0 +1,11 @@
+golang-github-subosito-gotenv (1.2.0+git20190917.de67a66-2) unstable; urgency=medium
+
+  * No-change source-only upload to unblock testing migration.
+
+ -- Andreas Henriksson <andreas@fatal.se>  Sat, 25 Jan 2020 19:01:01 +0100
+
+golang-github-subosito-gotenv (1.2.0+git20190917.de67a66-1) unstable; urgency=medium
+
+  * Initial release (Closes: #945081)
+
+ -- Andreas Henriksson <andreas@fatal.se>  Tue, 12 Nov 2019 17:40:53 +0100
