@@ -1,19 +1,18 @@
 Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
-Upstream-Name: gotenv
 Source: https://github.com/subosito/gotenv
-Files-Excluded:
-  Godeps/_workspace
+Upstream-Name: gotenv
+Upstream-Contact: https://github.com/subosito/gotenv/issues/new
 
 Files: *
 Copyright: 2013 Alif Rachmawadi
-License: MIT
+License: Expat
 
 Files: debian/*
 Copyright: 2019 Andreas Henriksson <andreas@fatal.se>
-License: MIT
+License: Expat
 Comment: Debian packaging is licensed under the same terms as upstream
 
-License: MIT
+License: Expat
  The MIT License (MIT)
  .
  Permission is hereby granted, free of charge, to any person obtaining a copy

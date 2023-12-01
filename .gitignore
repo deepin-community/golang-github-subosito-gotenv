@@ -1,1 +1,3 @@
-.pc/
+*.test
+*.out
+annotate.json
