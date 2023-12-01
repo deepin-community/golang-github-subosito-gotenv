@@ -1,3 +1,27 @@
+golang-github-subosito-gotenv (1.3.0-1) unstable; urgency=medium
+
+  * New upstream version 1.3.0
+  * Use dh-sequence-golang instead of dh-golang and --with=golang
+  * Bump versioned dependencies as per go.mod
+  * Bump Standards-Version to 4.6.2 (no change)
+  * Remove -dev package dependency on golang-github-stretchr-testify-dev
+  * Change license name from "MIT" to "Expat" as per Debian convention
+  * Set debian-branch to debian/sid for DEP-14 conformance
+  * Add myself to the list of Uploaders
+
+ -- Anthony Fok <foka@debian.org>  Tue, 11 Jul 2023 03:09:49 -0600
+
+golang-github-subosito-gotenv (1.2.0+git20190917.de67a66-3) unstable; urgency=medium
+
+  [ Debian Janitor ]
+  * Bump debhelper from old 11 to 12.
+  * Set debhelper-compat version in Build-Depends.
+  * Set upstream metadata fields: Bug-Database, Bug-Submit, Repository,
+    Repository-Browse.
+  * Apply multi-arch hints. + golang-github-subosito-gotenv-dev: Add Multi-Arch: foreign.
+
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Wed, 23 Nov 2022 22:59:19 +0000
+
 golang-github-subosito-gotenv (1.2.0+git20190917.de67a66-2) unstable; urgency=medium
 
   * No-change source-only upload to unblock testing migration.
